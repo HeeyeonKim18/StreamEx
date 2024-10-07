@@ -1,9 +1,11 @@
 package com.example.streamEx.stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamExamples {
     public static void main(String[] args) {
@@ -41,5 +43,6 @@ public class StreamExamples {
                                 employee1.getEmpSalary() > employee2.getEmpSalary() ? employee1 : employee2)
                 .get();
         System.out.println("Max salary = " + employee);
+
     }
 }
