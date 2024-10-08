@@ -12,6 +12,7 @@ public class Trader {
     private final String name;
     private final String city;
 
+
     @Override
     public int hashCode() {
         int hash = 17;
